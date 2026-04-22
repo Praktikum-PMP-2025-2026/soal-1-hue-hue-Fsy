@@ -28,7 +28,6 @@ void mesinAnalisis(int *arr, int n, int *jumlah, float *average, int *max, int *
 
 int main() {
     int N;
-    printf("Masukkan nilai N:\n");
     scanf("%d", &N);
     int craft[N];
     int *ptr = craft;
