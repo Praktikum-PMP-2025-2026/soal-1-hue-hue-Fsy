@@ -41,9 +41,9 @@ int main() {
     
     mesinAnalisis(ptr, N, &jumlah, &average, &max, &posisi_max);
 
-    printf("SUM: %d\n", jumlah);
-    printf("AVG: %.2f\n", average);
-    printf("MAX: %d\n", max);
-    printf("IDX : %d\n", posisi_max);
+    printf("SUM %d\n", jumlah);
+    printf("AVG %.2f\n", average);
+    printf("MAX %d\n", max);
+    printf("IDX %d\n", posisi_max);
     return 0;
 }
